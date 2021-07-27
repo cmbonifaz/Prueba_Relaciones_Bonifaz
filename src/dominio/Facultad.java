@@ -10,6 +10,11 @@ public class Facultad {
     private ArrayList<Carrera> carrera = new ArrayList<>(); // relacion: una facultad tiene varias carreras
     private ArrayList<Profesor> profesor = new ArrayList<>(); // relacion: una facultad tiene varios profesores
 
+    public Facultad(String tipoDeFacultad, Director director) {
+        this.tipoDeFacultad = tipoDeFacultad;
+        this.director = director;
+    }
+
     public void agregaCarrera(Carrera carrera1) {
         carrera.add(carrera1);
     }
