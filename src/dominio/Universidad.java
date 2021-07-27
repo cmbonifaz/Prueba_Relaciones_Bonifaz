@@ -13,4 +13,8 @@ public class Universidad {
         this.nombreDeUniversidad = nombreDeUniversidad;
     }
 
+    public void agregaFacultad(Facultad facultad1) {
+        facultad.add(facultad1);
+    }
+
 }
